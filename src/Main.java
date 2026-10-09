@@ -7,7 +7,7 @@ public class Main {
 
             while (running) {
                 System.out.println("\n=== PROGRAM GEOMETRI BENTUK ===");
-                System.out.println("1. Tampilkan Contoh Otomatis (Demo All Shapes)");
+                System.out.println("1. Tampilkan Contoh (Demo All Shapes)");
                 System.out.println("2. Buat Bujur Sangkar");
                 System.out.println("3. Buat Lingkaran");
                 System.out.println("4. Buat Silinder");
@@ -19,7 +19,7 @@ public class Main {
 
                 switch (pilihan) {
                     case 1 -> {
-                        System.out.println("\n--- DEMO PEMBUATAN OBJEK OTOMATIS ---");
+                        System.out.println("\n--- DEMO PEMBUATAN OBJEK ---");
                         Bentuk b = new Bentuk("Merah");
                         b.printInfo();
 
