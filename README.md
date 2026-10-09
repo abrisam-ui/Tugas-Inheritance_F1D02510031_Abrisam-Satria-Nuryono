@@ -25,10 +25,10 @@ Proyek ini dibuat untuk memenuhi tugas mata kuliah Pemrograman Berbasis Objek (P
 ### 2. Polymorphism (Polimorfisme)
 * **Penerapan**: Menggunakan **Method Overriding** (`@Override`) di mana subclass mendefinisikan ulang perilaku method `printInfo()` sesuai spesifikasi bentuk masing-masing.
 * **Perilaku Output**:
-  * `Bentuk.printInfo()` $\rightarrow$ Menampilkan warna bentuk.
-  * `BujurSangkar.printInfo()` $\rightarrow$ Menampilkan warna dan hasil `hitungLuas()` bujur sangkar.
-  * `Lingkaran.printInfo()` $\rightarrow$ Menampilkan warna dan hasil `hitungLuas()` lingkaran.
-  * `Silinder.printInfo()` $\rightarrow$ Menampilkan warna dan hasil `hitungVolume()` silinder.
+  * `Bentuk.printInfo()`      → Menampilkan warna bentuk.
+  * `BujurSangkar.printInfo()`→ Menampilkan warna dan hasil `hitungLuas()` bujur sangkar.
+  * `Lingkaran.printInfo()`   → Menampilkan warna dan hasil `hitungLuas()` lingkaran.
+  * `Silinder.printInfo()`    → Menampilkan warna dan hasil `hitungVolume()` silinder.
 
 ---
 
